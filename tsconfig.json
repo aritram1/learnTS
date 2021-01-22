@@ -1,0 +1,8 @@
+{
+    //Most useful tag is compilerOptions that generally goes with below three options
+    "compilerOptions": {
+        "target": "ESNext", // Defines which target JS version, the compiler will compile to.
+        "watch": true,      //if true, it autostarts server wverytime the file is changed, similar to nodemon.
+        "lib" : ["DOM", "ES2017"] //Which HML libraries to include, in case HTML elements manipulation is required.
+    }
+}
