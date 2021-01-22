@@ -23,7 +23,7 @@ interface response{
 
 class Person implements response{
     
-    Person(name : string){
+    Person(name : string, id: string, time: Date){
         this.id = Math.ceil(Math.random()*10000000).toString();
         this.name = name;
         this.time = new Date();
